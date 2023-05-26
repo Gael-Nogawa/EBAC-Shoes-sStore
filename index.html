@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR">    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable-yes">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
     <title>EBAC Shoes</title>
 </head>
 <body>
@@ -13,69 +17,76 @@
             <h1>EBAC Shoes</h1>
             <nav class="menu">
                 <ul>
-                    <li><a href="#">Sobre a loja</a></li>
-
-                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#sobre-a-loja">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    
+    <div class="conteudo">
 
-    <div class="container conteudo">
-
-        <section>
-            <div  class="sobre-a-loja">
-                <img src="./assets/loja-de-tenis.jpg" title="EBAC shoes" alt="Imagem sobre a loja de tenis">
+        <section class="container">
+            <div id="sobre-a-loja">
+                <img src="./assets/lojaTenis.png" title="EBAC shoes" alt="Imagem sobre a loja de tenis">
                 <div>
                     <h2>Sobre a loja</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit neque cupiditate, ut possimus quis quos tenetur numquam ullam illum eaque nemo expedita esse? Ex repellat aperiam tenetur dicta, ullam iure.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ab maiores illum, iure ipsam labore dolore possimus necessitatibus cumque quia quae voluptate, cupiditate voluptas. Suscipit et deserunt laudantium voluptates vitae?</p>
-                    
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, fugit nesciunt. Culpa, consequatur animi non, sint excepturi repellat maiores alias id dolores ab dicta, quas commodi eaque nostrum fugiat numquam!
+                    Molestiae repellat illum nulla quod sequi, quaerat quidem aperiam, deleniti possimus vitae ipsam magnam eligendi, laborum ratione? Excepturi placeat nihil quaerat. Animi rem quia ipsum, adipisci quisquam sint beatae facere?
+                    Perferendis dolore laborum, eum molestiae non quos cumque earum, tempora, ipsa ex nesciunt facilis deleniti voluptates itaque? Ab architecto nam hic assumenda aperiam enim aliquam, ipsum iusto odit voluptas totam!</p>                    
                 </div>
                 
             </div>
         </section>
 
-        <section>
-            <div class="container">
-                <article>
-                    <a href="#">
-                        <img src="./assets/vans-atwood-cinza.webp" alt="Tênis Vans AtWood - na cor cinza">
-                        <p>Tênis Vans Atwood </p>
+        <section class="container">
+            <div id="produtos">
+                <h2>Produtos</h2>
+                <div class="item-produtos">
+                    <article class="tenis">
+                            <div>
+                                <img src="./assets/tenisAdidas.webp" alt="Tênis, marca: Adidas, cor: preto e com o logo branco">
+    
+                            </div>
+                            <h3>Tênis Adidas</h3>
+                            <p>Tênis Adidas, disponível nos tamanhos: 37, 38, 39 e 40</p> 
+    
+                            <button type="button">Adicionar ao carrinho</button>
+                        
+                    </article>
+                    <article class="tenis">
+                            <div>
+                                <img src="./assets/TenisNike.avif" alt="Tênis, marca: Nike, cor: preto com o logo branco">
+                            </div>
+                                <h3>Tênis Nike</h3>
+                            <p>Tênis Nike, disponível nos tamanhos: 35, 37, 38 e 40</p>
+                            <button type="button">Adicionar ao carrinho</button>
+                        
+                    </article>
+                    <article class="tenis">
+                            <div>
+                                <img src="./assets/tenisVans.jpeg" alt="Tênis, marca Vans, cor: preta com risco branco ao lado">
+    
+                            </div>
+                            <h3>Tênis Vans</h3>
+                            <p>Tênis Vans, disponível nos tamanhos: 36, 37, 38, 41</p>
+                            <button type="button">Adicionar ao carrinho</button>
+                        
+                    </article>
+                    <article class="tenis">
+                        <div>
+                            <img src="./assets/tenisVans.jpeg" alt="Tênis, marca Vans, cor: preta com risco branco ao lado">
+    
+                        </div>
+                        <h3>Tênis Vans</h3>
+                        <p>Tênis Vans infantil, disponível nos tamanhos: 36 ao 39</p>
                         <button type="button">Adicionar ao carrinho</button>
-                    </a>
-                </article>
-                <article>
-                    <a href="#">
-                        <img src="./assets/vans-classic.webp" alt="Tênis Vans Classic - na cor bege e preto quadriculados">
-                        <p>Tênis Vans Classic</p>
-                        <button type="button">Adicionar ao carrinho</button>
-                    </a>
-                </article>
-                <article>
-                    <a href="#">
-                        <img src="./assets/vans-preto-branco.webp" alt="Tênis Vans - na cor preta com risco branco ao lado">
-                        <p>Tênis Vans</p>
-                        <button type="button">Adicionar ao carrinho</button>
-                    </a>
-                </article>
-                <article>
-                    <a href="#">
-                        <img src="./assets/freedom-fog-sandro-dias.webp" alt="Tênis Freedom Fog Sandro Dias - na cor preta">
-                        <p>Tênis Freedom Fog - Sandro Dias</p>
-                        <button type="button">Adicionar ao carrinho</button>
-                    </a>
-                </article>
-                
+                    
+                    </article>
+                </div>
             </div>
         </section>
-
     </div>
                     
-
-    
-    
 </body>
 </html>
